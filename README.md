@@ -17,9 +17,3 @@ In the following application you could :
 Technology used : ReactJs, MongoDB, NodeJs, express, CORS, SASS, and HTML. 
 
 Frameworks : Bootstrap, and Axios.
-
-Developed by : 
-    1) Noordeep Singh Gill - 002194664 - gill.no@northeastern.edu
-    2) Naman Gupta - 002142933 - gupta.nama@northeastern.edu
-    3) Kiran Unnikrishnan - 002101654 - unnikrishnan.ki@northeastern.edu
-    4) Siddhartha Savant - 001568075 - savant.si@northeastern.edu
