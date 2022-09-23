@@ -1,0 +1,81 @@
+.navbar-top {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+    top: 0;
+}
+
+.navbar-head {
+	width: 100%;
+	overflow: hidden
+}
+
+.w3-center .navbar-head {
+	display: inline-block;
+	width: auto
+}
+
+.navbar-head .navbar-bar-item{
+	padding: 8px 16px;
+	float: left;
+	width: auto;
+	border: none;
+	display: block;
+	outline: 0
+}
+
+
+.navbar-head .navbar-button{
+	white-space: normal
+}
+
+.navbar-wide {
+	letter-spacing: 4px
+}
+
+.w3-bar-block .navbar-bar-item {
+	width: 100%;
+	display: block;
+	padding: 8px 16px;
+	text-align: left;
+	border: none;
+	white-space: normal;
+	float: none;
+	outline: 0
+}
+
+.w3-bar-block.w3-center .navbar-bar-item {
+	text-align: center
+}
+
+.w3-btn, .navbar-button{
+	border: none;
+	display: inline-block;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap
+}
+
+.w3-bar-block .w3-dropdown-click .navbar-button {
+	width: 100%;
+	text-align: left;
+	padding: 8px 16px
+}
+
+.navbar-white{
+    background-color: #fff;
+}
+
+.navbar-padding {
+    padding: 8px 16px;
+}
+
+.navbar-right{
+    float: right;
+}

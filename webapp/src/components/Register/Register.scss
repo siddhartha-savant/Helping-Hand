@@ -1,0 +1,75 @@
+//The elements of the main container 
+.form-element{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//All the labels used in the main container
+.label-ele{
+    width: 100px;
+}
+
+//All the input used in the main container
+.input-ele{
+    width: 300px;
+    border-radius: 5px;
+}
+
+//CSS for the form container
+.data-form{
+    display: flex;
+    justify-content: center;
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    //background: linear-gradient(-135deg, #5cff33, #9eeb71);
+    height: 110vh;
+}
+
+.form-container{
+    height: 670px;
+    width: 850px;
+    padding: 50px;
+    background-color: white;
+    margin-top: 99px;
+    border-radius: 10px;
+    box-shadow: 10px 16px 23px rgba(0, 0, 0, 0.322);
+}
+
+//For the custom buttons
+.btn-custom{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+//Used for linking CSS
+.linking{
+    margin-top: 21px;
+    text-decoration: none;
+}
+
+//CSS for registration header
+.registration-header{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+//Custom input CSS for no borders just bottom border
+.custom-input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: 0.1px solid black;
+    outline: none;
+    padding-bottom: 3px;
+}
+
+//CSS for registration image
+.register-img{
+    height: 479px;
+    width: 400px;
+    margin-right: 20px;
+}

@@ -1,0 +1,29 @@
+.visit_Request_grid{    
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit_Request_box{
+    padding: 20px;
+    width: 20rem;
+}
+
+.visit_Request_button{
+    margin: 10px;
+    width: 100px;
+}
+
+.visit_request_element{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+}
+
+
+

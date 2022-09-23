@@ -1,0 +1,50 @@
+//Main container
+.profile-container{
+    margin-top: 100px;
+    flex-direction: column;
+    width: 100%;
+    .go-back{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+        button{
+            margin-right: 50px;
+        }
+    }
+    .profile-header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+//All the profile element CSS
+.profile-element{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+//All the labels in the Profile component
+.profile-label{
+    width: 100px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+//The data which is rendered on frontend
+.profile-data{
+    width: 700px;
+    font-size: 18px;
+}
+
+//Deactive account button
+.deactivate-account{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

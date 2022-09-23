@@ -1,0 +1,33 @@
+.visitSchedule-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitSchedule-element{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.visitSchedule-container{
+    width: 600px;
+}
+
+.visitSchedule-label{
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+}
+
+.bl-btn{
+    width: 100px;
+}
+
+.bl-vs{
+    margin-left: 20px;
+}
+
+.vs-actionbtns{
+    margin-top: 28px;
+}

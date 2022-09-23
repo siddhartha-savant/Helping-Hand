@@ -1,0 +1,25 @@
+.grid{    
+    padding: 20px;
+}
+
+.box{
+    padding: 20px;
+    width: 22rem;
+    border-radius: 10px;
+    box-shadow: 10px 16px 23px rgba(0, 0, 0, 0.322);
+    background-color: #fff4e5; 
+}
+
+.cardlayout-btn{
+    margin: 10px;
+    width: 117px;
+    background-color: white;
+}
+
+.cardlayout-elements{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+}
+

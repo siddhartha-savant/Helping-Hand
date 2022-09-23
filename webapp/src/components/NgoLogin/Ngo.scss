@@ -1,0 +1,147 @@
+.ngo-container{
+    width: 100%;
+    min-height: 600px;
+}
+
+//CSS for card layot
+.card-layout{
+    width: 300px;
+    border: 1px solid black;
+}
+
+//CSS for NGO button
+.ngo-btn{
+    margin-top: 80px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+
+.btn-ngo{
+    margin-right: 30px;
+}
+
+//Create a new request 
+.createReq{
+    position: absolute;
+    top: 200px;
+    left: 590px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 261px;
+    width: 303px;
+    background: white;
+}
+
+//Edit request
+.editreq{
+    position: absolute;
+    top: 200px;
+    left: 590px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 261px;
+    width: 303px;
+    background: white;
+}
+
+//hide the element by applying display : hide
+.hide{
+    display: none;
+}
+
+//Input text field CSS
+.custom-input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 4px;
+    width: 200px;
+}
+
+//Close button CSS
+.close{
+    height: 30px;
+    width: 50px;
+    color: red;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 42px;
+}
+
+//On hovering over close button
+.close:hover{
+    cursor: pointer;
+}
+
+//Add button
+.add-btn{
+    width: 100px;
+    margin-top: 20px;
+}
+
+
+.cards-ngo-layout{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    column-gap: 10px;
+}
+
+//Request cards CSS 
+.req-cards{
+    height: 60px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    background-color: lightblue;
+    ul{
+        display: flex;
+    }
+    span{
+        width: 100px;
+    }
+    li{
+        width: 220px ;
+        list-style-type: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        button{
+            margin-right: 20px;
+            font-weight: bold;
+            width: 90px;
+        }
+    }
+    .item-head{
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .quantity-head{
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+.ngo-pageHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
